@@ -1,3 +1,10 @@
+// Backbone.Validation v0.8.0
+//
+// Copyright (c) 2011-2013 Thomas Pedersen
+// Distributed under MIT License
+//
+// Documentation and full license available at:
+// http://thedersen.com/projects/backbone-validation
 (function (factory) {
   if (typeof exports === 'object') {
     module.exports = factory(require('backbone'), require('underscore'));
@@ -289,7 +296,7 @@
       return {
   
         // Current version of the library
-        version: '0.7.1',
+        version: '0.8.0',
   
         // Called to configure the default options
         configure: function(options) {
@@ -604,5 +611,6 @@
   
     return Validation;
   }(_));
+  
   return Backbone.Validation;
 }));
