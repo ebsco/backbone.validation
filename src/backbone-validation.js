@@ -61,6 +61,7 @@ Backbone.Validation = (function(_){
           val instanceof Array ||
           val instanceof Date ||
           val instanceof RegExp ||
+		  val instanceof Array ||
           val instanceof Backbone.Model ||
           val instanceof Backbone.Collection)
         ) {
